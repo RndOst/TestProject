@@ -13,6 +13,8 @@
 		6468A9701EF3165A00EB6D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6468A96E1EF3165A00EB6D02 /* Main.storyboard */; };
 		6468A9721EF3165A00EB6D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6468A9711EF3165A00EB6D02 /* Assets.xcassets */; };
 		6468A9751EF3165A00EB6D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6468A9731EF3165A00EB6D02 /* LaunchScreen.storyboard */; };
+		6468A9821EF320D800EB6D02 /* RCStandardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6468A9801EF320D800EB6D02 /* RCStandardCell.m */; };
+		6468A9831EF320D800EB6D02 /* RCStandardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6468A9811EF320D800EB6D02 /* RCStandardCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		6468A9711EF3165A00EB6D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6468A9741EF3165A00EB6D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6468A9761EF3165A00EB6D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6468A97F1EF320D800EB6D02 /* RCStandardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCStandardCell.h; sourceTree = "<group>"; };
+		6468A9801EF320D800EB6D02 /* RCStandardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCStandardCell.m; sourceTree = "<group>"; };
+		6468A9811EF320D800EB6D02 /* RCStandardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCStandardCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				6468A9691EF3165A00EB6D02 /* AppDelegate.m */,
 				6468A96B1EF3165A00EB6D02 /* ViewController.h */,
 				6468A96C1EF3165A00EB6D02 /* ViewController.m */,
+				6468A97F1EF320D800EB6D02 /* RCStandardCell.h */,
+				6468A9801EF320D800EB6D02 /* RCStandardCell.m */,
+				6468A9811EF320D800EB6D02 /* RCStandardCell.xib */,
 				6468A96E1EF3165A00EB6D02 /* Main.storyboard */,
 				6468A9711EF3165A00EB6D02 /* Assets.xcassets */,
 				6468A9731EF3165A00EB6D02 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6468A9751EF3165A00EB6D02 /* LaunchScreen.storyboard in Resources */,
+				6468A9831EF320D800EB6D02 /* RCStandardCell.xib in Resources */,
 				6468A9721EF3165A00EB6D02 /* Assets.xcassets in Resources */,
 				6468A9701EF3165A00EB6D02 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6468A96D1EF3165A00EB6D02 /* ViewController.m in Sources */,
+				6468A9821EF320D800EB6D02 /* RCStandardCell.m in Sources */,
 				6468A96A1EF3165A00EB6D02 /* AppDelegate.m in Sources */,
 				6468A9671EF3165A00EB6D02 /* main.m in Sources */,
 			);
